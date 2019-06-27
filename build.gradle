@@ -18,6 +18,9 @@ sourceSets {
         java {
             srcDir './src'
         }
+        resources {
+            srcDirs= ["./src"]
+        }
     }
 }
 
